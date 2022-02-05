@@ -54,8 +54,8 @@ func InitTelegram() {
 			AllowedUpdates: []string{
 				"message",
 				"edited_message",
-				// "channel_post",
-				// "edited_channel_post",
+			        "channel_post",
+				"edited_channel_post",
 				// "inline_query",
 				// "chosen_inline_result",
 				"callback_query",
